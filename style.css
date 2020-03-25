@@ -1,0 +1,30 @@
+#calculator{
+    width: 400px;
+    height: 250px;
+    border: 2px solid cornflowerblue;
+}
+.element{
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+.row{
+    align-content: center;
+}
+input{
+    border: 1px solid coral;
+}
+button {
+    margin-right: 20px;
+    font-weight: bold;
+    background: #D6F5FF;
+    border-top: 1px solid #73C8DB;
+    border-bottom: 1px solid #73C8DB;
+}
+label{
+    font-weight: bold;
+}
+#result{
+    margin-top: 0;
+    margin-left: 45%;
+}

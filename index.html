@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Calculator</title>
+</head>
+<body>
+    <section id="calculator">
+        <h1 class="element">Calculate math operations</h1>
+        <label class="element">First number</label><br>
+        <input class="element" type="number" id="inp_a"><br>
+        <label class="element">Second number</label><br>
+        <input class="element" type="number" id="inp_b">
+        <div class="element" class="row">
+            <button onclick="clickAdd()">(+)</button>
+            <button onclick="clickSubstract()">(-)</button>
+            <button onclick="clickMultiply()">(*)</button>
+            <button onclick="clickDivide()">(/)</button>
+            <button onclick="clickPow()">(a^b)</button>
+        </div>
+        <p class="element" style="color: red">Result: </span></p>
+        <p class="element" id="result"></p>
+    </section>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
